@@ -1,76 +1,67 @@
-# Phase Introduction: Foundations of Computing & Project Setup  
+**Phase Introduction: Phase 0 - Foundations of Computing**
+===========================================================
 
-## Phase Title  
-**Phase 0: Exploring Computing Fundamentals & Launching the Museum**  
+**Overview**
+------------
 
----
+Welcome to Phase 0 of the Personal Computer Museum project, where you'll lay the groundwork for building an interactive website that showcases the history of computing. In this phase, you'll explore the fundamental concepts of computing, including computer systems, binary and number systems, data representation, operating systems, file systems, command line interfaces, and networking. By the end of this phase, you'll have a solid understanding of the basics of computing and be ready to start building your museum website.
 
-## Phase Overview  
-Welcome to the start of your journey to build the **Personal Computer Museum**, an interactive website that educates users about the history and mechanics of computing. In this phase, you will establish foundational knowledge of how computers work, from binary systems to operating systems, while beginning to construct the core structure of your museum. This phase focuses on building conceptual clarity and practical skills to prepare you for more advanced Java and web development tasks in later phases.  
+**Phase Objectives**
+--------------------
 
-By the end of this phase, you will have a working prototype of the museum’s website with interactive elements, a development environment configured for future growth, and a reflective understanding of your role as a learner in engineering.  
+* Understand the basic components of a computer and its functions
+* Learn about binary and number systems, bits, bytes, and data representation
+* Familiarize yourself with operating system basics, file systems, and command line interfaces
+* Understand how the internet works and set up a development environment
+* Introduce programming concepts and develop a growth mindset for engineering
 
----
+**Topic-to-Project Connection Map**
+-----------------------------------
 
-## Learning Objectives  
-By the end of this phase, you will be able to:  
-1. Define the basic components of a computer and their roles.  
-2. Convert and manipulate numbers across binary, decimal, and hexadecimal systems.  
-3. Explain how data is represented using bits, bytes, and data types.  
-4. Describe the purpose and functionality of operating systems and file systems.  
-5. Simulate basic command-line interactions and file management.  
-6. Outline the structure of the internet and its core protocols.  
-7. Set up a web development environment to host the museum.  
-8. Reflect on the principles of programming and growth mindset in engineering.  
+The following topics will be covered in Phase 0, along with their connections to the Personal Computer Museum project:
 
----
+* 0.1 What is a Computer? - Learners add a brief introduction to what a computer is and its basic components.
+* 0.2 Binary & Number Systems - Learners create a binary calculator to demonstrate binary and number systems.
+* 0.3 Bits, Bytes & Data Representation - Learners design a data representation system to showcase bits, bytes, and data types.
+* 0.4 Operating System Basics - Learners build a simple operating system simulator to demonstrate basic OS concepts.
+* 0.5 File Systems & Directories - Learners create a virtual file system to organize and manage files and directories.
+* 0.6 Command Line & Terminal - Learners implement a command line interface to interact with the virtual file system.
+* 0.7 How the Internet Works - Learners design a simple network diagram to illustrate how the internet works.
+* 0.8 Dev Environment Setup - Learners set up a development environment to build and host their museum website.
+* 0.9 What is Programming? - Learners write interactive coding challenges to teach programming concepts.
+* 0.10 Growth Mindset for Engineering - Learners reflect on their learning journey and write a growth mindset statement for engineering.
 
-## Project Integration  
-This phase directly ties to the **Personal Computer Museum** project through hands-on tasks:  
-- **Computer Basics (0.1):** Add an introductory section to the museum explaining what a computer is.  
-- **Binary Calculator (0.2):** Build an interactive tool to demonstrate binary conversions (e.g., binary-to-decimal).  
-- **Data Representation (0.3):** Design a visual exhibit to explain bits, bytes, and data types (e.g., ASCII, RGB).  
-- **OS Simulator (0.4):** Create a simple OS interface (e.g., process scheduling or memory management).  
-- **Virtual File System (0.5):** Implement a mock file browser to organize museum content (folders, files).  
-- **Command Line Interface (0.6):** Develop a terminal-like interface to navigate the virtual file system.  
-- **Network Diagram (0.7):** Illustrate internet architecture (e.g., client-server model, routers).  
-- **Dev Environment Setup (0.8):** Configure HTML/CSS/JavaScript tools and deploy a static museum homepage.  
-- **Programming Challenges (0.9):** Include mini-quizzes or drag-and-drop coding puzzles for learners.  
-- **Growth Mindset Reflection (0.10):** Write a statement about your approach to learning and debugging.  
+**Deliverables**
+----------------
 
----
+By the end of Phase 0, you will have completed the following deliverables:
 
-## Key Concepts  
-This phase introduces the following foundational ideas:  
-- **Computer Architecture:** CPU, memory, storage, and input/output devices.  
-- **Binary & Number Systems:** Base-2, base-10, base-16, and bitwise operations.  
-- **Data Representation:** Text, images, sound, and their binary encoding.  
-- **Operating Systems:** Booting, process management, and user interfaces.  
-- **File Systems:** Directories, file types, and permissions.  
-- **Command Line:** Navigating and executing commands in a terminal.  
-- **Internet Fundamentals:** IP addresses, DNS, and HTTP.  
-- **Development Tools:** Code editors (e.g., VS Code), version control (e.g., Git), and web hosting.  
-- **Programming Basics:** Logic, syntax, and problem-solving frameworks.  
-- **Growth Mindset:** Embracing challenges, learning from failure, and iterative improvement.  
+* A brief introduction to what a computer is and its basic components
+* A binary calculator to demonstrate binary and number systems
+* A data representation system to showcase bits, bytes, and data types
+* A simple operating system simulator to demonstrate basic OS concepts
+* A virtual file system to organize and manage files and directories
+* A command line interface to interact with the virtual file system
+* A simple network diagram to illustrate how the internet works
+* A set up development environment to build and host your museum website
+* Interactive coding challenges to teach programming concepts
+* A growth mindset statement for engineering
 
----
+**Technical Requirements**
+-------------------------
 
-## Phase Deliverables  
-By the end of this phase, you will have completed:  
-1. A **written introduction** to computing for the museum’s homepage.  
-2. A **binary calculator** with user input and conversion logic.  
-3. A **data representation exhibit** (e.g., interactive bit/byte visualizer).  
-4. A **simple OS simulator** with basic functionality (e.g., task scheduling).  
-5. A **virtual file system** with folder/file navigation.  
-6. A **command-line interface** to interact with the file system.  
-7. A **network diagram** explaining internet connectivity.  
-8. A **configured development environment** with a deployable website.  
-9. A **set of programming challenges** (e.g., drag-and-drop code completion).  
-10. A **personal growth mindset statement** reflecting on your learning journey.  
+For this phase, you will be using the following technologies:
 
----
+* HTML
+* CSS
+* JavaScript
 
-## Next Steps  
-Once Phase 0 is complete, you will transition into **Phase 1**, where you will begin integrating Java into the museum’s backend to add dynamic features like user accounts, advanced simulations, and data persistence.  
+**Phase Timeline**
+------------------
 
-Let’s build the past, present, and future of computing—one line of code at a time! 🖥️
+This phase is expected to take [insert timeframe] to complete. You will have [insert timeframe] to complete each topic, and [insert timeframe] to work on the deliverables.
+
+**Getting Started**
+-------------------
+
+To get started with Phase 0, review the topic-to-project connection map and familiarize yourself with the technologies and tools you'll be using. Then, dive into the first topic, 0.1 What is a Computer?, and start building your foundation in computing.
