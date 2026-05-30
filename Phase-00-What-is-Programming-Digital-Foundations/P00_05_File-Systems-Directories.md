@@ -1,61 +1,85 @@
-# Topic: File Systems & Directories
 ## What Is This?
-A file system is a way of organizing and storing files on a computer. It's like a virtual library where you can store, manage, and retrieve your files. A directory, also known as a folder, is a container that holds files and other directories. Think of it like a shelf in a library where you can store books (files) and other shelves (directories).
+A file system is a way to organize and store data on a computer, allowing you to easily find and access your files. Think of it like a library where books are organized on shelves, and each shelf has a label, making it easy to find a specific book. In the same way, a file system helps you organize your files and directories, making it easy to navigate and find what you need.
 
 ## How It Works Internally
-When you create a file or directory, the operating system allocates space on the hard drive to store it. The file system keeps track of where each file and directory is located, using a system of pointers and indexes. This allows the operating system to quickly locate and retrieve files when you need them.
+### Introduction to File Systems
+A file system is made up of several components, including the root directory, subdirectories, and files. The root directory is the top-most directory in the file system, and all other directories and files are stored inside it.
+
+### Tree Structure
+The file system is organized in a tree-like structure, with the root directory at the top and subdirectories and files branching out from it. This structure allows you to easily navigate and find files by following the directory path.
+
+### Absolute Paths vs Relative Paths
+When navigating the file system, you can use either absolute paths or relative paths. An absolute path is the full path to a file or directory, starting from the root directory. A relative path, on the other hand, is a path that is relative to the current working directory.
+
+### File Permissions
+File permissions determine who can read, write, or execute a file. There are three types of permissions: read (r), write (w), and execute (x). These permissions can be set for the owner, group, or others, allowing you to control who can access your files.
+
+### Owner, Group, Others
+In Unix-based systems, each file has an owner, group, and others associated with it. The owner is the user who created the file, the group is a collection of users who have access to the file, and others refers to all other users on the system.
+
+### Special Files
+There are several types of special files in a file system, including symlinks, device files, and sockets. Symlinks are shortcuts to other files or directories, device files represent hardware devices, and sockets are used for inter-process communication.
+
+### Inodes
+Inodes are the underlying data structure that stores information about a file, such as its location on disk, ownership, and permissions. When you create a file, an inode is created to store its metadata.
+
+### Layered Mechanics
+#### LAYER 1: Minimum Viable Version
+The minimum viable version of a file system would include a root directory, subdirectories, and files. This basic structure allows you to store and organize your files.
+
+#### LAYER 2: Why the Simple Version Breaks
+The simple version breaks when you need to control access to your files or when you need to store large amounts of data. This is where file permissions and inodes come in, allowing you to set access controls and store metadata about your files.
+
+#### LAYER 3: Production Version
+A production-ready file system would include features such as file permissions, inodes, and special files. This allows you to control access to your files, store metadata, and use special files for hardware devices and inter-process communication.
+
+#### LAYER 4: Edge Cases
+Two edge cases to consider are when a file is deleted and its inode is not updated, or when a file is created with incorrect permissions. In the first case, the file may still be accessible even though it has been deleted. In the second case, the file may not be accessible to the intended users.
+
+CORE INSIGHT: A file system is a complex structure that requires careful management of directories, files, and permissions to ensure that your data is organized and secure.
 
 ## Syntax and Structure
-Since we're not yet familiar with Java syntax for file systems, let's use plain English to describe the structure of a file system. A file system consists of:
-- Root directory: the top-most directory
-- Subdirectories: directories within the root directory or other subdirectories
-- Files: stored within directories
-We can represent this structure using a simple tree-like diagram:
+```text
+# STEP 1: Create a root directory to store all files and subdirectories
+# STEP 2: Create subdirectories to organize files by category
+# STEP 3: Create files and store them in the appropriate subdirectories
+# STEP 4: Set file permissions to control access to files
+# STEP 5: Use inodes to store metadata about files
+# STEP 6: Use special files for hardware devices and inter-process communication
+In Phase 1 we will write this in real code.
 ```
-Root Directory
-|
-|-- Subdirectory 1
-|   |
-|   |-- File 1
-|   |-- File 2
-|
-|-- Subdirectory 2
-|   |
-|   |-- File 3
-|
-|-- File 4
-```
+
 ## Practical Example
-Imagine you're creating a virtual file system for your Personal Computer Museum project. You might have a root directory called "Museum" with subdirectories for "Exhibits", "Artifacts", and "Documents". Within these subdirectories, you could store files like "exhibit1.txt", "artifact1.jpg", and "document1.pdf".
+This section is omitted for Phase 0 as no runnable code exists yet.
+
+## How This Connects to the Project
+The Personal Computer Museum project requires a file system to organize and manage files and directories. The file system will be used to store information about computers, including their specifications, history, and images. The project will use a tree-like structure to organize the files and directories, with the root directory at the top and subdirectories and files branching out from it.
 
 ## Common Mistakes Beginners Make
-Here are a few common mistakes beginners make when working with file systems and directories:
-1. **Not checking if a directory exists before trying to create it**: This can lead to errors if the directory already exists. For example, trying to create a directory called "Museum" when it already exists.
-2. **Not handling file paths correctly**: This can lead to errors when trying to access files. For example, using a relative path like "../file.txt" when the current directory is not what you expect.
-3. **Not closing files after use**: This can lead to memory leaks and other issues. For example, opening a file for reading but not closing it after you're done.
+**Wrong idea:** Assuming that file permissions are not important.
+**Correct idea:** File permissions are crucial to control access to your files.
+The most common mistake beginners make is not setting file permissions correctly, which can lead to security issues. Another mistake is not using inodes to store metadata about files, which can lead to data corruption.
 
-## Programming Challenge
-Create a simple text-based representation of a file system with a root directory and two subdirectories. The user should be able to navigate through the directories and list the files in each directory.
+## Verification Task 1
+Your file system is not organized, and you are having trouble finding files. You have a large number of files and subdirectories, but no clear structure. Diagnose and fix the problem.
 
-## Solution
-Since we're not yet familiar with Java syntax for file systems, let's use a simple pseudocode to represent the solution:
-```
-CREATE ROOT DIRECTORY "Museum"
-CREATE SUBDIRECTORY "Exhibits" IN "Museum"
-CREATE SUBDIRECTORY "Artifacts" IN "Museum"
-CREATE FILE "exhibit1.txt" IN "Exhibits"
-CREATE FILE "artifact1.jpg" IN "Artifacts"
+## Solution 1
+The problem is that the file system is not organized, and there is no clear structure. To fix this, create a root directory and subdirectories to organize files by category. Set file permissions to control access to files, and use inodes to store metadata about files.
 
-PRINT "Current Directory: Museum"
-PRINT "Subdirectories: Exhibits, Artifacts"
-PRINT "Files: "
+## Verification Task 2
+You are building a file system for a new project, and you need to decide whether to use a hierarchical or flat structure. Defend your choice using this topic.
 
-USER INPUT: "cd Exhibits"
-PRINT "Current Directory: Exhibits"
-PRINT "Files: exhibit1.txt"
+## Solution 2
+A hierarchical structure is better suited for this project because it allows for easy organization and navigation of files and subdirectories. A flat structure would lead to a cluttered and disorganized file system, making it difficult to find files.
 
-USER INPUT: "cd .."
-PRINT "Current Directory: Museum"
-```
+## Verification Task 3
+You are reviewing a file system, and you notice that a file is created with incorrect permissions. Find and fix the bug.
+
+## Solution 3
+The bug is that the file is created with incorrect permissions, which can lead to security issues. To fix this, set the correct file permissions to control access to the file.
+
 ## What Comes Next
-In the next topic, we'll learn about basic programming concepts, including variables, data types, and control structures. This will lay the foundation for more advanced topics, including working with file systems and directories in Java.
+The next topic is **How the Internet Works**, which follows logically from this one because understanding how file systems work is crucial to understanding how data is transmitted over the internet. One concrete concept from this topic that will reappear in **How the Internet Works** is the concept of file permissions, which will be used to control access to data transmitted over the internet.
+
+## Reference Summary
+A file system is a way to organize and store data on a computer, allowing you to easily find and access your files. The file system is organized in a tree-like structure, with the root directory at the top and subdirectories and files branching out from it. File permissions determine who can read, write, or execute a file, and inodes store metadata about files. The most common production mistake is not setting file permissions correctly, which can lead to security issues. The Personal Computer Museum project uses a file system to organize and manage files and directories, and understanding how file systems work is crucial to understanding how data is transmitted over the internet.
