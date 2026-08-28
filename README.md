@@ -72,6 +72,7 @@ This repository is an automated, industry-grade learning system designed to teac
 - Gradle
 - JUnit 5 — Testing
 - Mockito — Mocking
+- Load & Performance Testing
 
 ### Database Layer: JDBC, JPA, Hibernate & SQL
 - Relational Databases & SQL Fundamentals
@@ -137,6 +138,7 @@ This repository is an automated, industry-grade learning system designed to teac
 - Security Architecture
 - API Design Principles
 - Message-Driven Architecture
+- Architecture Decision Records (ADRs)
 
 ### DevOps, CI/CD & Containerization
 - Git — Professional Workflow
@@ -173,6 +175,7 @@ This repository is an automated, industry-grade learning system designed to teac
 - Grafana Dashboards
 - Distributed Tracing in Microservices
 - AWS CloudWatch
+- JVM Performance Tuning, Garbage Collection & Heap Analysis
 
 ### Auditing
 - Why Auditing in Enterprise Java?
@@ -183,6 +186,24 @@ This repository is an automated, industry-grade learning system designed to teac
 - Compliance & Data Protection
 - Querying and Reporting Audit Logs
 - Security Incident Response
+
+### Scaling
+- Scaling Fundamentals
+- Database Scaling
+- Caching at Scale
+- Async Processing & Backpressure
+- Kafka for Scalable Event Streaming
+- Scaling the AI/RAG Pipeline (Phase 9)
+- CDN & Edge Caching
+- Cloud Cost Optimization & FinOps
+- Performance Testing & Optimization
+
+### Engineering Craft, Career & Interviews
+- Data Structures & Algorithms — Interview Essentials
+- System Design Interview Framework — Practiced Under Time Pressure
+- Behavioral Interviews — STAR Method & Story Bank
+- Technical Brand, Portfolio & Visibility
+- Engineering Estimation, Planning & Stakeholder Communication
 
 
 ## 5. Real Industry-Grade Project
