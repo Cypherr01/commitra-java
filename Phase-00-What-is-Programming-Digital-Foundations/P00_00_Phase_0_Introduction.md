@@ -1,33 +1,36 @@
 ## Overview
-Phase 0 establishes the foundational knowledge and technical setup required to begin developing JavaCart. It bridges the gap between theoretical computing concepts and practical development skills, ensuring learners understand how computers execute programs, manage data, and interact with systems. This phase also focuses on configuring a robust development environment and fostering the problem-solving mindset essential for tackling the project's challenges. By completing this phase, learners gain the prerequisites to start building the JavaCart application with confidence.
+Phase 0 establishes the foundational technical literacy and environment setup required to begin Java development for the JavaStore platform. This phase demystifies the computational hardware, software, and networking concepts that underpin all backend systems, while equipping learners with essential terminal skills and development tools. Without this groundwork, subsequent phases involving Spring Boot, databases, and enterprise architecture would lack critical context. The goal is to transform complete beginners into developers capable of navigating systems, managing dependencies, and validating their environment for JavaStore.
 
 ## Phase Objectives
-- Understand fundamental computing concepts (hardware, software, data representation)
-- Set up a Java development environment with JDK and IntelliJ
-- Master command-line operations for project management
-- Create a standardized Maven project structure for JavaCart
-- Develop resilience through troubleshooting setup challenges
+- Understand core computational concepts (hardware/software, binary systems, data representation) relevant to application processing
+- Configure operating systems and file structures to support Java development operations
+- Master terminal navigation and commands for dependency management and project setup
+- Map internet protocols to JavaStore's client-server architecture requirements
+- Install and validate JDK, Maven, and IDE tools for Java development
+- Write foundational Java code to test environment functionality
+- Cultivate resilience through growth mindset practices for technical problem-solving
 
 ## Topic-to-Project Connection Map
-| Topic                     | Description                                                                 | Connection to JavaCart                                                                 |
-|---------------------------|-----------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| 0.1 What is a Computer?   | Document explaining CPU, RAM, storage roles                                 | Understand hardware requirements for running JavaCart servers and applications        |
-| 0.2 Binary & Number Systems | Method converting decimal to binary                                         | Foundation for data encoding in JavaCart's database and network operations            |
-| 0.3 Bits, Bytes & Data    | Java class demonstrating primitive data types' memory usage                 | Optimize memory management for JavaCart's product catalog and user sessions           |
-| 0.4 Operating System Basics | Script to check OS information                                              | Ensure cross-platform compatibility for JavaCart deployment                           |
-| 0.5 File Systems & Directories | Maven-compliant project directory setup                                     | Organize JavaCart modules (e.g., controllers, services) per Spring Boot conventions  |
-| 0.6 Command Line & Terminal | Initialize Maven project via CLI                                            | Build and manage JavaCart dependencies and artifacts                                  |
-| 0.7 How the Internet Works | Document HTTP request/response flow                                         | Design JavaCart's REST API for product/order endpoints                                |
-| 0.8 Dev Environment Setup | Install JDK 17 and IntelliJ configuration                                   | Develop and debug JavaCart Spring Boot components                                     |
-| 0.9 What is Programming?  | 'Hello World' Java program                                                  | Verify JDK installation and practice basic syntax for JavaCart features               |
-| 0.10 Growth Mindset        | Journal reflections on overcoming setup challenges                          | Build resilience for debugging JavaCart errors and learning new frameworks            |
+| Topic                     | Description                                                                 | Connection to JavaStore                                                                 |
+|---------------------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| 0.1 What is a Computer?   | Computational hardware/software components and their interactions           | Understand servers executing JavaStore's backend processes                              |
+| 0.2 Binary & Number Systems | Decimal-to-binary conversion and data storage principles                   | Optimize memory management for product catalog data storage                             |
+| 0.3 Bits, Bytes & Data    | Byte-level data representation for different data types                     | Efficiently manage user session data and order processing memory usage                  |
+| 0.4 Operating System Basics | System paths, environment variables, and process management                | Configure JAVA_HOME and Maven paths for build operations                                |
+| 0.5 File Systems & Directories | Hierarchical directory structures and file organization                    | Create Maven-compliant project structure for JavaStore modules                          |
+| 0.6 Command Line & Terminal | Terminal navigation and command execution                                   | Run Maven builds, manage Docker containers, and execute Jenkins pipelines               |
+| 0.7 How the Internet Works | Client-server model, HTTP protocols, and network communication              | Design RESTful APIs for cart operations and order processing                            |
+| 0.8 Dev Environment Setup  | JDK installation, build tools configuration, and IDE setup                 | Initialize JavaStore project with Maven dependencies and Docker support                 |
+| 0.9 What is Programming?   | Core programming concepts through minimal code implementation               | Validate JDK installation with a "Hello JavaStore" class                                |
+| 0.10 Growth Mindset        | Iterative learning strategies and overcoming technical challenges           | Persist through Hibernate configuration errors and Spring Boot debugging                |
 
 ## Phase Outcome
-- A fully configured development environment with JDK 17 and IntelliJ
-- Practical understanding of computer fundamentals through hands-on exercises
-- Maven-based JavaCart project structure ready for coding
-- CLI proficiency for project management and troubleshooting
-- Reflective journal entries documenting problem-solving strategies
+- A fully configured development environment with JDK 17, Maven, and Docker
+- Proficiency in terminal navigation and dependency management commands
+- Practical understanding of computational systems through binary/decimal conversions
+- Hierarchical Maven project structure for JavaStore initialized
+- First executable Java class validating environment functionality
+- Mindset tools for tackling JavaStore's backend complexity iteratively
 
 ## Next Steps
-With the foundational environment and concepts established, Phase 1 will introduce core Java programming principles. Learners will apply these fundamentals to build basic components of JavaCart's backend logic, starting with variables, control flow, and object-oriented design.
+With foundational systems knowledge and a functional development environment established, Phase 1 will introduce core Java programming constructs. Learners will apply these basics to build JavaStore's object-oriented domain model, including Product and User entities, while implementing fundamental authentication logic.
