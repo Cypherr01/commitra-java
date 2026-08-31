@@ -1,36 +1,33 @@
 ## Overview
-Phase 0 establishes the foundational technical literacy and environment setup required to begin Java development for the JavaStore platform. This phase demystifies the computational hardware, software, and networking concepts that underpin all backend systems, while equipping learners with essential terminal skills and development tools. Without this groundwork, subsequent phases involving Spring Boot, databases, and enterprise architecture would lack critical context. The goal is to transform complete beginners into developers capable of navigating systems, managing dependencies, and validating their environment for JavaStore.
+Phase 0 establishes the essential technical foundation required before writing any Java code for the Inventory Management System. This phase ensures learners understand the underlying hardware, software, and tools that power the application, while setting up their development environment. By mastering these fundamentals, learners gain the context needed to design efficient data structures, manage system resources, and navigate the project's technical ecosystem confidently.
 
 ## Phase Objectives
-- Understand core computational concepts (hardware/software, binary systems, data representation) relevant to application processing
-- Configure operating systems and file structures to support Java development operations
-- Master terminal navigation and commands for dependency management and project setup
-- Map internet protocols to JavaStore's client-server architecture requirements
-- Install and validate JDK, Maven, and IDE tools for Java development
-- Write foundational Java code to test environment functionality
-- Cultivate resilience through growth mindset practices for technical problem-solving
+- Understand foundational computing concepts (hardware, software, binary systems)
+- Grasp data representation principles for memory-efficient inventory storage
+- Learn operating system and file system interactions critical for application persistence
+- Master command-line operations for Java compilation and dependency management
+- Set up the Java development environment and cultivate problem-solving resilience
 
 ## Topic-to-Project Connection Map
-| Topic                     | Description                                                                 | Connection to JavaStore                                                                 |
-|---------------------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| 0.1 What is a Computer?   | Computational hardware/software components and their interactions           | Understand servers executing JavaStore's backend processes                              |
-| 0.2 Binary & Number Systems | Decimal-to-binary conversion and data storage principles                   | Optimize memory management for product catalog data storage                             |
-| 0.3 Bits, Bytes & Data    | Byte-level data representation for different data types                     | Efficiently manage user session data and order processing memory usage                  |
-| 0.4 Operating System Basics | System paths, environment variables, and process management                | Configure JAVA_HOME and Maven paths for build operations                                |
-| 0.5 File Systems & Directories | Hierarchical directory structures and file organization                    | Create Maven-compliant project structure for JavaStore modules                          |
-| 0.6 Command Line & Terminal | Terminal navigation and command execution                                   | Run Maven builds, manage Docker containers, and execute Jenkins pipelines               |
-| 0.7 How the Internet Works | Client-server model, HTTP protocols, and network communication              | Design RESTful APIs for cart operations and order processing                            |
-| 0.8 Dev Environment Setup  | JDK installation, build tools configuration, and IDE setup                 | Initialize JavaStore project with Maven dependencies and Docker support                 |
-| 0.9 What is Programming?   | Core programming concepts through minimal code implementation               | Validate JDK installation with a "Hello JavaStore" class                                |
-| 0.10 Growth Mindset        | Iterative learning strategies and overcoming technical challenges           | Persist through Hibernate configuration errors and Spring Boot debugging                |
+| Topic                     | Description                                                                 | Connection to Java Inventory Management System                          |
+|---------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| 0.1 What is a Computer?   | Learners establish foundational hardware/software awareness                 | Recognize the computer as the execution environment for the inventory system |
+| 0.2 Binary & Number Systems | Learners decode binary principles                                          | Comprehend how numeric stock data will be stored and processed          |
+| 0.3 Bits, Bytes & Data Representation | Learners map data types to bytes                                           | Design memory-efficient structures for item attributes (IDs, quantities)|
+| 0.4 Operating System Basics | Learners analyze OS resource management                                     | Ensure correct interaction with system files and memory                 |
+| 0.5 File Systems & Directories | Learners navigate directory structures                                      | Organize project files and plan storage for inventory records           |
+| 0.6 Command Line & Terminal | Learners execute terminal commands                                          | Compile Java code and manage dependencies (Maven)                       |
+| 0.7 How the Internet Works | Learners model client-server communication                                  | Anticipate future integrations like cloud backups                       |
+| 0.8 Dev Environment Setup  | Learners install JDK and IDE tools                                          | Create the development sandbox for building core logic                  |
+| 0.9 What is Programming?   | Learners deconstruct programming concepts                                   | Write algorithms for item management operations                         |
+| 0.10 Growth Mindset for Engineering | Learners cultivate persistence                                              | Debug setup challenges and refine class structures iteratively          |
 
 ## Phase Outcome
-- A fully configured development environment with JDK 17, Maven, and Docker
-- Proficiency in terminal navigation and dependency management commands
-- Practical understanding of computational systems through binary/decimal conversions
-- Hierarchical Maven project structure for JavaStore initialized
-- First executable Java class validating environment functionality
-- Mindset tools for tackling JavaStore's backend complexity iteratively
+- A fully configured Java development environment with JDK, IDE, and Maven
+- Proficiency in terminal commands for project management
+- Foundational understanding of computing concepts and data storage principles
+- Mental framework for problem-solving and iterative development
+- Readiness to write Java code for core inventory system components
 
 ## Next Steps
-With foundational systems knowledge and a functional development environment established, Phase 1 will introduce core Java programming constructs. Learners will apply these basics to build JavaStore's object-oriented domain model, including Product and User entities, while implementing fundamental authentication logic.
+With the foundational environment and concepts secured, Phase 1 will transition to hands-on Java programming. Learners will apply these principles to build core application logic, starting with the `Item` class and fundamental inventory operations. This phase bridges theoretical knowledge with practical implementation of the system's data models.
